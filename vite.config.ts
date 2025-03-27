@@ -11,10 +11,12 @@ export default defineConfig({
   plugins: [react()],
   resolve: {
     alias: {
-      "@assets": path.resolve(__dirname, "./src/assets"),
       "@pages": path.resolve(__dirname, "./src/pages"),
-      "@styles": path.resolve(__dirname, "./src/styles"),
-      "@theme": path.resolve(__dirname, "./src/theme"),
+      "@app": path.resolve(__dirname, "./src/app"),
+      "@entities": path.resolve(__dirname, "./src/entities"),
+      "@features": path.resolve(__dirname, "./src/features"),
+      "@shared": path.resolve(__dirname, "./src/shared"),
+      "@widgets": path.resolve(__dirname, "./src/widgets"),
     }
   },
   build: {
