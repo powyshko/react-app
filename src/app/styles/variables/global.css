@@ -6,4 +6,7 @@
   --font-size-l: 24 px;
   --font-line-l: 32px;
   --font-l: var(--font-size-l) / var(--font-line-l) var(--font-family-name);
+
+  /* Размеры */
+  --navbar-height: 50px;
 }
